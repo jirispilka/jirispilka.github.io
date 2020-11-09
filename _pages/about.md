@@ -3,9 +3,8 @@ layout: about
 title: about
 permalink: /
 description: > 
-    Research and development engineer at <a href="http://www.concerto.ai/">concerto.ai</a> <br>
-    Researcher at <a href="http://www.ciirc.cvut.cz/">Czech Institute of Informatics, Robotics and Cybernetics (CIIRC)</a>.
-    CTU in Prague. 
+    Research and Development Engineer at <a href="http://www.concerto.ai/" target="_blank">Concerto.ai</a> &bull;
+    Researcher at <a href="http://www.ciirc.cvut.cz/" target="_blank">CIIRC CTU in Prague</a>
 
 profile:
   align: right
@@ -17,14 +16,21 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-A1 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I consider myself as a data science generalist. I enjoy finding patterns in data using signal processing and machine learning algorithms.
+Most of the time I spent in Python (data processing, transforming data, employing machine learning models, and programming in general).
+The rest of the time I spent writing APIs. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+#### Research Interests
+biomedical signal processing, machine learning, classification, fetal heart rate analysis and classification, 
+cardiotocography, and natural language processing
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
-<!---
-    <p>Office location:</p>
-    <p>The Blox</p>
-    <p>Evropská 2785/11</p>
-    <p>Prague, Czech Republic</p>
--->
+#### Short-bio
+I worked as R&D at Cardiology Department ([BTL Medical Technologies CZ](https://www.btlnet.com/)) and implemented signal
+processing and classification algorithms for Holter and resting ECG. I have a Ph.D. in Artificial Intelligence and Biocybernetics 
+from [Czech Technical University in Prague](https://www.cvut.cz/en). 
+I had focused mainly on biomedical signal processing and machine learning. 
+with bias (and passion) towards applications to fetal heart rate analysis.
+My great pleasure was to teach Artificial Intelligence course for several years.
+At present, I enjoy working at [Concerto.ai](http://www.concerto.ai/). We are creating a conversational AI platform that consists of 
+several modules such as intent recognition, data mining, search, dialogue management, and analytics.
+ 
