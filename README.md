@@ -1,9 +1,14 @@
 # al-folio
 
 # TODO
-- no photo
-- delete office location
-- try to deploy it the site
+- tune home page and about page
+- include blog post to home page
+- add office location at the bottom of about page
+- add full cv to about page
+- add photo to about page
+- add office to about page
+- add how to contact, work togeather, internship
+- selected publications
 - this guy have publications with images: https://mayankm96.github.io/
 - take inspiration of: https://www.cs.cmu.edu/~mshediva/
 

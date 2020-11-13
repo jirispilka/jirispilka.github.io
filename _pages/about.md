@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about/
 description: > 
     Research and Development Engineer at <a href="http://www.concerto.ai/" target="_blank">Concerto.ai</a> &bull;
     Researcher at <a href="http://www.ciirc.cvut.cz/" target="_blank">CIIRC CTU in Prague</a>
@@ -11,8 +11,8 @@ profile:
   image:
   address: 
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
