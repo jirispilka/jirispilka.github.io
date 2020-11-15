@@ -8,8 +8,11 @@ description: >
 
 profile:
   align: right
-  image:
-  address: 
+  image: prof_pic.jpg
+  address: >
+    <p>The Blox</p>
+    <p>Evropská 2785/11</p>
+    <p>Praha</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -25,11 +28,12 @@ biomedical signal processing, machine learning, classification, fetal heart rate
 cardiotocography, and natural language processing
 
 ### short-bio
+At present, I enjoy working at [Concerto.ai](http://www.concerto.ai/). We are creating a conversational AI solution that consists of 
+several modules such as intent recognition, data mining, search, dialogue management, and analytics.
 I worked as Research and Development Engineer at Cardiology Department ([BTL Medical Technologies CZ](https://www.btlnet.com/)) and implemented signal
 processing and classification algorithms for Holter and resting ECG. I have a Ph.D. in Artificial Intelligence and Biocybernetics 
 from [Czech Technical University in Prague](https://www.cvut.cz/en) where I had focused mainly on biomedical signal processing and machine learning 
 with a bias and passion towards applications to fetal heart rate analysis.
 My great pleasure was to teach Artificial Intelligence course for several years.
-At present, I enjoy working at [Concerto.ai](http://www.concerto.ai/). We are creating a conversational AI platform that consists of 
-several modules such as intent recognition, data mining, search, dialogue management, and analytics.
+
  

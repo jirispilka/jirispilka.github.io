@@ -1,12 +1,9 @@
 # al-folio
 
 # TODO
-- tune home page and about page
-- include blog post to home page
-- add office location at the bottom of about page
+- improve short bio - present state goes first then goes previous stuff
+- improve my cv
 - add full cv to about page
-- add photo to about page
-- add office to about page
 - add how to contact, work togeather, internship
 - selected publications
 - this guy have publications with images: https://mayankm96.github.io/
