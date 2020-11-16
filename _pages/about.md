@@ -19,21 +19,16 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I consider myself as a data science generalist. I enjoy finding patterns in data using signal processing and machine learning algorithms.
-Most of the time I spent in Python (data processing, transforming data, employing machine learning models, and programming in general).
-The rest of the time I spent writing APIs. 
+I'm a research and development engineer at [Concerto.ai](http://www.concerto.ai/). 
+We are creating a conversational AI solution that is capable of question answering from structured and unstructured data, appointment booking, and other cool stuff. 
 
-### research interests
-biomedical signal processing, machine learning, classification, fetal heart rate analysis and classification, 
-cardiotocography, and natural language processing
+I have a PhD in Artificial Intelligence and Biocybernetics from [Czech Technical University in Prague](https://www.cvut.cz/en) 
+where I had focused mainly on signal processing and machine learning with a bias and passion towards applications to fetal heart rate analysis.
+I worked as a researcher at the [Czech Institute of Informatics, Robotics and Cybernetics](http://www.ciirc.cvut.cz/), and I had a pleasure 
+to work with Patrice Abry during my post-doc at [Physics Department, ENS Lyon](http://physique.ens-lyon.fr/departement-de-physique-223870.kjsp), France.  
+Prior to that, I worked as a Research and Development Engineer at Cardiology Department ([BTL Medical Technologies CZ](https://www.btlnet.com/)) and implemented signal
+processing and classification algorithms for Holter and resting ECG. 
 
-### short-bio
-At present, I enjoy working at [Concerto.ai](http://www.concerto.ai/). We are creating a conversational AI solution that consists of 
-several modules such as intent recognition, data mining, search, dialogue management, and analytics.
-I worked as Research and Development Engineer at Cardiology Department ([BTL Medical Technologies CZ](https://www.btlnet.com/)) and implemented signal
-processing and classification algorithms for Holter and resting ECG. I have a Ph.D. in Artificial Intelligence and Biocybernetics 
-from [Czech Technical University in Prague](https://www.cvut.cz/en) where I had focused mainly on biomedical signal processing and machine learning 
-with a bias and passion towards applications to fetal heart rate analysis.
-My great pleasure was to teach Artificial Intelligence course for several years.
+My great pleasure is to teach in Artificial Intelligence course at Department of Cybernetics, Faculty of Electrical Engineering (together with Petr Posik).
 
  

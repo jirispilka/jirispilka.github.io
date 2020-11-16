@@ -1,11 +1,12 @@
 # al-folio
 
 # TODO
-- improve short bio - present state goes first then goes previous stuff
 - improve my cv
 - add full cv to about page
-- add how to contact, work togeather, internship
+- add how to contact, work together, internship
 - selected publications
+- add reading list
+- add news archive
 - this guy have publications with images: https://mayankm96.github.io/
 - take inspiration of: https://www.cs.cmu.edu/~mshediva/
 
