@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Jiří
 middle_name:
 last_name: Spilka
-email jiri.spilka@cvut.cz:
+email: jiri.spilka@cvut.cz
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Jiri Spilka, research interests: signal processing, machine learning, natural language processing
 footer_text: >
@@ -52,7 +52,7 @@ blogger_url: # your blogger URL
 keybase_username: # your keybase user name
 strava_userid: 4761055
 
-contact_note:
+contact_note: XXXXXX
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 

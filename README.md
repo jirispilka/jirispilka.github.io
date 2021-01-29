@@ -1,8 +1,6 @@
 # al-folio
 
 # TODO
-- add full cv to about page
-- add how to contact, work together, internship
 - selected publications
 - add reading list
 - add news archive
