@@ -31,8 +31,8 @@ processing and classification algorithms for Holter and resting ECG.
 
 My great pleasure is to teach in Artificial Intelligence course at Department of Cybernetics, Faculty of Electrical Engineering (together with Petr Posik).
 
-Full [CV]({{ site.url }}/assets/pdf/cv_spilka_en_20210128.pdf) for more information.
+Full [CV]({{ site.url }}/assets/pdf/cv_spilka_en_20210128.pdf).
 
 ##### Contact
 If you are interested in working with me on academic or industrial signal processing and/or machine learning projects
-feel free to contact about available topics. 
+feel free to contact me about available topics. 

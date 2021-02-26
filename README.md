@@ -1,9 +1,10 @@
 # al-folio
 
 # TODO
-- selected publications
+- selected publications (publikace jsou nahrane ze souboru papers.bit. Formatovani publikaci je v bib.html)
 - add reading list
 - add news archive
+- add teaching
 - this guy have publications with images: https://mayankm96.github.io/
 - take inspiration of: https://www.cs.cmu.edu/~mshediva/
 
