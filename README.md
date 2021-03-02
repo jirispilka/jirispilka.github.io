@@ -1,11 +1,12 @@
 # al-folio
 
 # TODO
-- selected publications (publikace jsou nahrane ze souboru papers.bit. Formatovani publikaci je v bib.html)
+- add all the attributes to the bib, via jabref
+- fill all the publications
 - add reading list
 - add news archive
 - add teaching
-- this guy have publications with images: https://mayankm96.github.io/
+- this guy has publications with images: https://mayankm96.github.io/
 - take inspiration of: https://www.cs.cmu.edu/~mshediva/
 
 ## Install jekyll
