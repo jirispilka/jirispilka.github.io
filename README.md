@@ -1,7 +1,6 @@
 # al-folio
 
 # TODO
-- add all the attributes to the bib, via jabref
 - fill all the publications
 - add reading list
 - add news archive

@@ -11,7 +11,7 @@ profile:
   image:
   address: 
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 
@@ -21,6 +21,6 @@ I consider myself as a data science generalist. I enjoy finding patterns in data
 Most of the time I spent in Python (data processing, transforming data, employing machine learning models, and programming in general).
 The rest of the time I spent writing APIs.   
 
-#### research interests
+#### Research interests
 biomedical signal processing, machine learning, fetal heart rate analysis, and natural language processing
 

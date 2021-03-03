@@ -1,7 +1,6 @@
 ---
 ---
 
-
 <div class="row">
     <div class="col-sm-2 abbr">
 
@@ -12,6 +11,7 @@
     </div>
 
     <div id="{{entry.key}}" class="col-sm-8">
+
         {% if entry.type == "thesis" %}
         {{reference}}
         {% else %}
@@ -69,14 +69,14 @@
             {% if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
             {% endif %}
-            {% if entry.html %}
-            <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+            {% if entry.url %}
+            <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
             {% endif %}
-            {% if entry.pdf %}
-            {% if entry.pdf contains '://' %}
-            <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+            {% if entry.file %}
+            {% if entry.file contains '://' %}
+            <a href="{{ entry.file | replace:':PDF','' }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
             {% else %}
-            <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0"
+            <a href="{{ entry.file | replace:':PDF','' | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0"
                role="button" target="_blank">PDF</a>
             {% endif %}
             {% endif %}
@@ -112,6 +112,10 @@
             {% endif %}
             {% if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
+            {% endif %}
+            {% if entry.bib %}
+            <a href="{{ entry.bib | prepend: '/assets/bibliography/' | relative_url }}" class="btn btn-sm z-depth-0"
+               role="button" target="_blank">BibTex</a>
             {% endif %}
         </div>
 
