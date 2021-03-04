@@ -143,6 +143,7 @@ scholar:
   details_link: Details
 
   sort_by: year
+  order: descending
 
   query: "@*"
 

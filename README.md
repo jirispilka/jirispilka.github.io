@@ -1,7 +1,7 @@
 # al-folio
 
 # TODO
-- fill all the publications
+- check all the publications are correct
 - add reading list
 - add news archive
 - add teaching
