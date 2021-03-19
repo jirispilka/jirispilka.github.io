@@ -264,8 +264,8 @@ footer.sticky-bottom {
 
 .projects {
   .grid-item {
-    width: 250px;
-    margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 5px;
     a {
       color: black;
       text-decoration: none;
@@ -276,6 +276,9 @@ footer.sticky-bottom {
   }
   .card img {
     width: 100%;
+  }
+  .card {
+    background-color: var(--global-bg-color);
   }
 }
 

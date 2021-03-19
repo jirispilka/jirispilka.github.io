@@ -1,8 +1,12 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: Open access intrapartum CTG database
+description: Database from the Czech Technical University (CTU) in Prague and the University Hospital in Brno (UHB) published in 2014.
+img: /assets/img/CTU-UHB-2014.png
+github: https://github.com/jirispilka/CTG-database-2017
+github_user: jirispilka
+github_repo: CTG-database-2017
+cited_by: 147
 importance: 1
 ---
 

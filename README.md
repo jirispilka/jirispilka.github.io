@@ -1,7 +1,7 @@
 # al-folio
 
 # TODO
-- check all the publications are correct
+- fix all the projects - create grid with projects and codes
 - add reading list
 - add news archive
 - add teaching
