@@ -61,7 +61,7 @@ google_analytics: G-4H2BWM1WVT # out your google-analytics code
 # -----------------------------------------------------------------------------
 
 blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: under the construction
+blog_description: Under the construction
 permalink: /blog/:year/:title/
 
 # Pagination
