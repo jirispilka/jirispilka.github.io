@@ -13,7 +13,7 @@ nav: true
 
 
 ##### supervised theses
-- 2022 - Daria Ozerova - Intent detection module for a conversational assistant (master thesis)
+- 2022 - Daria Ozerova - [Intent detection module for a conversational assistant](https://dspace.cvut.cz/handle/10467/100875) (master thesis)
 - 2020 - Mohamed Safwat - [Classification of Intrapartum Fetal Heart Rate Signals](https://dspace.cvut.cz/handle/10467/92800) (bachelor thesis)
 - 2019 - Matyáš Lusting - [Text summarization for chatbots](https://dspace.cvut.cz/handle/10467/82663) (master thesis)
 - 2018 - Tomáš Brich - [Semantic sentence similarity for intent recognition task](https://dspace.cvut.cz/handle/10467/77029) (master thesis)
