@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+   <title>Jiri Spilka - contact</title>
+   <meta name="description" content="">
+   <meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   <!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="../css/default.css">
+   <link rel="stylesheet" href="../css/layout.css">
+   <link rel="stylesheet" href="../css/media-queries.css">
+
+   <!-- Script
+   ================================================== -->
+   <script src="../js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+   <link rel="shortcut icon" href="../favicon.ico" >
+
+</head>
+
+<body>
+
+<!-- Header
+================================================== -->
+<header>
+   <div class="row">
+      <div class="twelve columns">
+         <nav id="nav-wrap">
+            <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+            <ul id="nav" class="nav">
+               <li><a href="../index.html">Home</a></li>
+               <li class="current"><a href="../projects.html">Projects</a></li>
+               <li><a href="../publications.html">Publications</a></li>
+               <li><a href="../teaching.html">Teaching</a></li>
+               <li><a href="../about.html">About</a></li>
+            </ul> <!-- end #nav -->
+         </nav> <!-- end #nav-wrap -->
+      </div>
+   </div>
+</header> <!-- Header End -->
+
+
+<!-- Page Title
+================================================== -->
+<div id="page-title-my">
+
+   <div class="row">
+      <div class="twelve columns align-left">
+         <h2>Projects<span>.</span></h2>
+         <p>CTU-UHB Intrapartum Cardiotocography Database</p>
+      </div>
+   </div>
+</div> <!-- Page Title End-->
+
+   <!-- Content
+   ================================================== -->
+   <div class="content-outer">
+
+      <div id="page-content" class="row">
+
+         <div id="primary" class="twelve columns">
+
+            <article class="post">
+
+               <div class="entry-header cf">
+                  <h1>CTU-UHB Intrapartum Cardiotocography Database.</h1>
+               </div>
+
+               <div class="post-thumb">
+                  <img src="../papers/Chudacek2014.png" alt="db-image" title="db-image">
+               </div>
+
+               <div class="post-content">
+                  <p> The CTGs were recorded using STAN S31 (Neoventa Medical, Molndal, Sweden) and Avalon FM40 and FM50 (Philips Healthcare, Andover, MA).
+                     All CTG signals were stored in an electronic form in the OB TraceVue system (Philips) in a proprietary.
+                     Each CTG record contains time information and signal of fetal heart rate and uterine contractions sampled at 4 Hz. </p>
+
+                  <p> From 9164 intrapartum recordings the final database of 552 carefully selected CTGs was created keeping in consideration clinical as well as technical point of view; </p>
+
+                  <p>The clinical data include: delivery descriptors (presentation of fetus, type of delivery and length of first and second stage), neonatal outcome (seizures, intubation, etc.),
+                     fetal and neonatal descriptors (sex, gestational week, weight, etc.), and information about mother and possible risk factors.
+                     For the final CTU-UHB database clinical data were exported from relational database and converted into physionet text format.
+                  </p>
+
+                  <p>The database is fully described in: <a href="http://www.biomedcentral.com/1471-2393/14/16">Open access intrapartum CTG database</a>.</p>
+
+
+                  <h3>Database files:</h3>
+                  <p><a href="http://www.physionet.org/physiobank/database/ctu-uhb-ctgdb/">http://www.physionet.org/physiobank/database/ctu-uhb-ctgdb/</a></p>
+
+                  <h3>Types of arguments in the *.hea files:</h3>
+                  <p>Template of all arguments in the database *.hea files can be accessed:  <a href="tempValuesAll.txt">here</a></p>
+
+                  <h3>Format and software:</h3>
+                  <p>The database is prepared in physionet format. Fetal heart rate and uterine contractions are stored in binary files *.dat. Data format and clinical information are stored in text header files: *.hea.
+                     More information about physionet format and tools can be found at: <a href="http://www.physionet.org/physiobank/physiobank-intro.shtml">physiobank-intro</a>.
+                  </p>
+
+
+                  <p>We provide a simple <a href="https://github.com/jirispilka/CTG-database-2014" target="_blank">MATLAB scripts</a> to read the database files. (The WFDB toolbox is no longer needed).</p>
+
+               </div>
+
+            </article> <!-- post end -->
+
+         </div>
+
+         <div id="secondary" class="four columns end">
+
+            <aside id="sidebar">
+            </aside> <!-- Sidebar End -->
+
+         </div> <!-- Comments End -->
+
+      </div>
+
+   </div> <!-- Content End-->
+
+<!-- footer
+================================================== -->
+<footer>
+   <div class="row">
+      <div class="twelve columns">
+         <ul class="footer-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="../publications.html">Publications</a></li>
+            <li><a href="../teaching.html">Teaching</a></li>
+            <li><a href="../about.html">About</a></li>
+         </ul>
+         <ul class="copyright">
+            <li>Copyright &copy; 2024 Jiri Spilka</li>
+            <li>Design by <a href="http://www.styleshout.com/">Styleshout</a></li>
+         </ul>
+      </div>
+   </div>
+</footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="../js/jquery.flexslider.js"></script>
+   <script src="../js/doubletaptogo.js"></script>
+   <script src="../js/init.js"></script>
+
+</body>
+
+</html>

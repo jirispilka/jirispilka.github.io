@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Jiri Spilka - data</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico" >
+
+</head>
+
+<body>
+
+<!-- Header
+================================================== -->
+<header>
+    <div class="row">
+        <div class="twelve columns">
+            <nav id="nav-wrap">
+                <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+                <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+                <ul id="nav" class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="projects.html">Projects</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul> <!-- end #nav -->
+            </nav> <!-- end #nav-wrap -->
+        </div>
+    </div>
+</header> <!-- Header End -->
+
+<!-- Page Title
+================================================== -->
+<div id="page-title-my">
+
+  <div class="row">
+    <div class="twelve columns align-left">
+        <h2>Projects<span>.</span></h2>
+     </div>
+  </div>
+</div> <!-- Page Title End-->
+
+<!-- Content
+================================================== -->
+<div class="content-outer">
+
+    <div id="page-content" class="row">
+
+        <div id="primary" class="eight columns">
+
+            <article class="post">
+                <div class="entry-header cf">
+                    <h3><a href="https://github.com/jirispilka/fastapi-pydantic-v2-benchmark" title="">Enhanced Speed in FastAPI Response Serialization with Pydantic v2</a></h3>
+                    <h3></h3>
+                </div>
+
+                <div class="post-content">
+                    <p>
+                    We used to have a simple suite (benchmark) to understand how FastAPI is internally serializing JSON/Pydantic data when it is returned.
+                    To handle large responses, we had to employ several workaround strategies.
+
+                    With pydantic v2 and its excellent performance, custom responses are no longer required.
+                    Checkout out the <a href="https://github.com/jirispilka/fastapi-pydantic-v2-benchmark" target="_blank">results.</a>
+                    </p>
+                </div>
+            </article> <!-- post end -->
+
+            <article class="post">
+                <div class="entry-header cf">
+                    <h3><a href="projects/CTU_UHB_database.html" title="">Open access intrapartum CTG database (CTU-UHB database)</a></h3>
+                    <div class="post-thumb">
+                        <a href="projects/CTU_UHB_database.html" title=""><img src="./papers/Chudacek2014.png" alt="post-image" title="post-image"></a>
+                    </div>
+                    <p>The database, from the Czech Technical University (CTU) in Prague and the University Hospital in Brno (UHB),
+                        contains 552 cardiotocography (CTG) recordings, which were carefully selected from 9164 recordings
+                        collected between 2010 and 2012 at UHB.</p>
+                </div>
+            </article>
+
+            <article class="post">
+                <div class="entry-header cf">
+                    <h3><a href="projects/Expert_annotations_ctu_uhb_db.html" title="">Expert annotations for the CTU-UHB database</a></h3>
+                    <div class="post-thumb">
+                        <img src="images/AnnotationWorkflow.png" alt="ann-image" title="ann-image" width="70%">
+                    </div>
+                </div>
+
+                <div class="post-content">
+                    <p>The CTGAnnotator was used to obtain annotation of the CTG recordings from nine expert-obstetricians.
+                        The CTGAnnotator presented the CTG trace in form of consecutive 30-minute windows together with basic clinical
+                        information. Each window was expected to be evaluated based on FIGO criteria by assigning it to one of the three
+                        classes (Normal/Suspicious/Pathological). All obstetricians working on delivery wards of six Obstetrics and
+                        Gynecology Departments of all the University Hospitals in the Czech Republic have been currently practicing
+                        delivery ward doctors with median experience of 15 years (minimum 10, maximum 33).
+                    </p>
+                </div>
+            </article> <!-- post end -->
+
+            <article class="post">
+                <div class="entry-header cf">
+                    <h3><a href="https://github.com/jirispilka/CTGViewer" title="" target="_blank">CTGViewer</a></h3>
+                </div>
+
+                <div class="post-content">
+                    <p><img width="120" height="120" class="pull-left" src="assets/CTGViewer.png" alt="CTGViewer"></a>
+                        The CTGViewer allows browsing of cardiotographic records from the CTG database
+                        <a href="http://physionet.org/physiobank/database/ctu-uhb-ctgdb/" target="_blank">(CTU-UHB database)</a>.
+                        Its purpose is to display a fetal heart rate and uterine contractions together with a clinical information without
+                        the need of Matlab.</p>
+                </div>
+            </article> <!-- post end -->
+
+            <article class="post">
+                <div class="entry-header cf">
+                    <h3><a href="https://github.com/jirispilka/latex-tikz-table" title="" target="_blank">Latex table with the TikZ package</a></h3>
+                </div>
+
+                <div class="post-content">
+                    <a href="assets/latex_tikz_table_minimal.png"><img class="software" src="assets/latex_tikz_table_minimal.png" alt="tikz_table"/></a>
+                    <p>The <a href="http://sourceforge.net/projects/pgf/">TikZ package</a> is interface to PGF macro package. It allows to produce
+                        nice graphic plots in latex. The example below shows how to use this packages to produce a fancy table that is easily readable.
+                        The values in table are in median with confidence intervals.<br/>
+                        Source code with pdf examples: <a href="https://github.com/spilkjir/latex-tikz-table">latex-tikz-table</a>
+                </div>
+            </article> <!-- post end -->
+
+            <article class="post">
+                <div class="entry-header cf">
+                    <h3>PartogramCopy</h3>
+                </div>
+
+                <div class="post-content">
+                    <p><a href="assets/PartogramCopy.png"><img width="120" height="120" class="pull-left" src="assets/PartogramCopy.png" alt="PartogramCopy"></a>
+
+                        The PartogramCopy was used to obtain data from paper documentation. It is able to save information
+                        to relational database (SQLlite). The PartogramCopy can save the following
+                        data: labour outcome as measured by pH, BE, or BDecf, evaluation of fetal heart rate
+                        records (normal, suspicious, pathological), drugs administered, and progress of labour.
+
+                        The application is written in python with PyQt bindings and PyQwt library.</p>
+                </div>
+            </article> <!-- post end -->
+
+
+
+
+<!--            &lt;!&ndash; Pagination &ndash;&gt;-->
+<!--            <nav class="col full pagination">-->
+<!--                <ul>-->
+<!--                    <li><span class="page-numbers prev inactive">Prev</span></li>-->
+<!--                    <li><span class="page-numbers current">1</span></li>-->
+<!--                    <li><a href="#" class="page-numbers">2</a></li>-->
+<!--                    <li><a href="#" class="page-numbers">3</a></li>-->
+<!--                    <li><a href="#" class="page-numbers">4</a></li>-->
+<!--                    <li><a href="#" class="page-numbers">5</a></li>-->
+<!--                    <li><a href="#" class="page-numbers">6</a></li>-->
+<!--                    <li><a href="#" class="page-numbers">7</a></li>-->
+<!--                    <li><a href="#" class="page-numbers">8</a></li>-->
+<!--                    <li><a href="#" class="page-numbers">9</a></li>-->
+<!--                    <li><a href="#" class="page-numbers next">Next</a></li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+
+        </div> <!-- Primary End-->
+
+        <div id="secondary" class="four columns end">
+            <aside id="sidebar">
+            </aside>
+        </div> <!-- Secondary End-->
+
+    </div>
+
+</div> <!-- Content End-->
+
+<!-- Content
+================================================== -->
+
+    
+   <!-- footer
+   ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="twelve columns">
+                <ul class="footer-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+
+                <ul class="copyright">
+                    <li>Copyright &copy; 2024 Jiri Spilka</li>
+                    <li>Design by <a href="http://www.styleshout.com/">Styleshout</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/doubletaptogo.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
+</html>

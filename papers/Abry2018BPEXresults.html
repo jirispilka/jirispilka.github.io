@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 2.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="jirka">
+    <link rel="stylesheet" type="text/css" href="../css/basic-profile.css" title="Basic Profile" media="all">
+    <title>Sparse learning for intrapartum fetal heart rate analysis</title>
+</head>
+
+<body>
+<div id="wrap">
+    <div id="sidebar">
+        <h3>Sparse learning for intrapartum fetal heart rate analysis</h3>
+        <br>
+        <ul>
+            <li>Patrice Abry, Jiří Spilka et al.</li>
+            <li>ENS Lyon, France <br> Czech Technical University in Prague</li>
+            <li>contact: <a href="mailto:Patrice.abry@ens-lyon.fr" style="font-size:smaller;">Patrice.abry@ens-lyon.fr</a></li>
+        </ul>
+
+    </div>
+
+    <div id="content">
+
+        <h2>Sparse learning for intrapartum fetal heart rate analysis</h2>
+
+        <p>The paper provides results on Lyon database and selected cases from CTU-UHB databases.
+            The reasoning for CTU-UHB selection is provided in the paper, full results are presented below
+            <a href="#full_results">CTU-UHB database - results on 552 cases</a>.
+        </p>
+
+        <p>P. Abry, J. Spilka, R. Leonarduzzi, V. Chudáček, N. Pustelnik, M. Doret
+            <strong>Sparse learning for Intrapartum fetal heart rate analysis</strong>
+            In <em>Biomedical Physics Engineering Express</em> 4(3) 034002, 2018.<br/>
+        </p>
+
+
+        <h2>Abstract</h2>
+
+        <p>Fetal Heart Rate (FHR) monitoring is used during delivery for fetal well-being assessment. Classically
+            based on the visual evaluation of FIGO criteria, FHR characterization remains a challenging task that
+            continuously receives intensive research efforts. Intrapartum FHR analysis is further complicated by
+            the two different stages of labor (dilation and active pushing). Research works aimed at devising
+            automated acidosis prediction procedures are either based on designing new advanced signal
+            processing analyses or on efficiently combining a large number of features proposed in the literature.
+            Such multi-feature procedures either rely on a prior feature selection step or end up with decision
+            rules involving long lists of features. This many-feature outcome rule does not permit to easily
+            interpret the decision and is hence not well suited for clinical practice. Machine-learning-based
+            decision-rule assessment is often impaired by the use of different, proprietary and small databases,
+            preventing meaningful comparisons of results reported in the literature. Here, sparse learning is
+            promoted as a way to perform jointly feature selection and acidosis prediction, hence producing an
+            optimal decision rule based on as few features as possible. Making use of a set of 20 features (gathering
+            ‘FIGO-like’ features, classical spectral features and recently proposed scale-free features), applied to
+            two large-size (respectively ;1800 and ;500 subjects), well-documented databases, collected
+            independently in French and Czech hospitals, the benefits of sparse learning are quantified in terms of:
+            (i) accounting for class imbalance (few acidotic subjects), (ii) producing simple and interpretable
+            decision rules, (iii) evidences for differences between the temporal dynamics of active pushing and
+            dilation stages, and (iv) of validity/generalizability of decision rules learned on one database and
+            applied to the other one.
+
+        </p>
+
+        <h2>Database</h2>
+
+        <p>Two independent large-size databases are used. They were
+            collected—with different technologies and constraints—at academic hospitals in Lyon,
+            France (LDB), and Brno, Czech Republic (CTU-UHB). They share comparable clinical
+            characteristics.
+            Tracings were included according to clinical and data-quality
+            criteria (Doret et al. 2011, Spilka et al. 2017): gestational
+            age >= 37 weeks, maternal age >= 18, tracing ending less than 20 minutes before delivery,
+            after-delivery pH measurement available, less than 50% of missing data in either labour stage
+        </p>
+
+
+        <a name="full_results"></a>
+        <h2>CTU-UHB database - results on 552 cases</h2>
+
+        <p> In the paper the subjects were selected based on the data quality at the end of first stage
+            and second stage: <strong>i) tracing ending less than 20 minutes before delivery,
+                ii) less than 50% of missing data in either labour stage.</strong></p>
+
+        <p>The goal was to explore the benefits of sparse learning in the construction
+            of decision rules. The actual computation of usable features required a decent data quality.
+            Therefore, to avoid the mixing of two independent
+            issues : i) benefits of sparse learning ii) impacts of the quality of the data, we have decided to focus on the first issue
+            mostly avoiding the blurring of conclusions on benefits of sparse learning by data quality issues.
+            However, to <strong>ease comparison of future works we present here results on the full CTU-UHB database (552 subjects).</strong>
+        </p>
+
+        <p>To compute the performance on the full database we have selected the last 20 minutes with FHR quality above 50%.
+            We used the <strong>stage I model (SI)</strong> for records ending in the first stage of labour and <strong>stage II model (SII)</strong> for
+            records ending in the second stage.</p>
+
+            <h4>Results:</h4>
+
+            <table>
+            <thead>
+            <tr>
+            <th>stage:</th>
+            <th>SE</th>
+            <th>SP</th>
+            <th>BER</th>
+            <th>TP</th>
+            <th>FN</th>
+            <th>TN</th>
+            <th>FP</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>SI</td>
+                <td>0.62</td>
+                <td>0.81</td>
+                <td>0.72</td>
+                <td>20</td>
+                <td>12</td>
+                <td>317</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>SII</td>
+                <td>0.58</td>
+                <td>0.77</td>
+                <td>0.68</td>
+                <td>7</td>
+                <td>5</td>
+                <td>89</td>
+                <td>27</td>
+            </tr>
+
+            <tr>
+                <td>sum SI + SII</td>
+                <td>0.61</td>
+                <td>0.80</td>
+                <td>0.71</td>
+                <td>27</td>
+                <td>17</td>
+                <td>406</td>
+                <td>102</td>
+            </tr>
+            </tbody>
+            </table>
+
+        SE - sensitivity, SP - specificity, BER - balanced error rate, TP - true positive, FN - false negative,
+        TN - true negative, FP - false positive
+
+        <h4>Detailed prediction for each subject:</h4>
+        <p> Prediction of sparse SVM for each subject in a csv format: <a href="../assets/Abry2018_BPEX_CTU_UHB_results.csv">Abry2018_BPEX_CTU_UHB_results.csv</a>
+
+        </p>
+
+        <p class="credits">© 2018 Jiří Spilka<br>
+            Template design by <a href="http://andreasviklund.com/">Andreas Viklund</a></p>
+    </div>
+</div>
+
+</body>
+</html>
